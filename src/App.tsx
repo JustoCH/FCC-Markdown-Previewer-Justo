@@ -4,7 +4,7 @@ import ReactMarkdown from "react-markdown"
 
 const defaultMarkdown = `
 # Welcome to my React Markdown Previewer!
-I
+
 ## This is a sub - heading...
 ### And here's some other cool stuff:
 Heres some code, \`<div></div>\`, between 2 backticks.
@@ -19,7 +19,9 @@ return multilineCode;
 \`\`\`
 You can also make text **bold**... whoa! Or _italic_.
 Or... **_both!_**
-There's also [links](https://www.freecodecamp.com), and > Block Quotes!
+There's also [links](https://www.freecodecamp.com), and 
+  >Block Quotes!
+
 ![React Logo w/ Text](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png?20220125121207)
 - And of course there are lists.
 - Some are bulleted.
